@@ -17,7 +17,7 @@ get_header();
 ?>
 
 <!-- custom -->
-<?php require_once('custom/homepage-custom.php'); ?>
+<?php //require_once('custom/homepage-custom.php'); ?>
 
   <div id="content" class="site-content py-5 mt-4 post-spotlight-section">
     <div id="primary" class="content-area <?= bootscore_container_class(); ?>">
@@ -29,11 +29,11 @@ get_header();
       <section id="home-posts" class="content-section">
 
         <!-- Header -->
-        <!--<div class="py-3 py-md-5 text-center">
+        <div class="py-3 py-md-5 text-center">
           <h1 class="display-1"><?php bloginfo('name'); ?></h1>
           <p class="lead"><?php bloginfo('description'); ?></p>
-        </div>-->
-        <h2 class="h2 text-center">Latest Recipes</h2>
+        </div>
+        <h2 class="h2 text-center">Latest Posts</h2>
         
 
         <!-- Sticky Post -->
